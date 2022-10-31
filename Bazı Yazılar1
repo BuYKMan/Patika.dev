@@ -1,0 +1,17 @@
+
+
+|16|21|11| 8|12|22| merge sort olarak gösteriniz:
+
+                                                  |  |  |  |  |  |  |  |  |  |  |  |  |
+                                                  |- |- |- |- |- |- |- |- |- |- |- |- |
+ Diziyi ikiye bölerek yeniden yazıyoruz           |  |  |  |16|21|11|8 |12|22|  |  |  |
+                                                  |  |  |  |  |  |  |  |  |  |  |  |  |
+ Sol ve sağdaki dizileri tekrar ikiye böluyoruz.  |  |  |16|21|11|  |  |8 |12|22|  |  |
+                                                  |  |  |  |  |  |  |  |  |  |  |  |  |
+ Tek eleman kalana kadar bir kez daha bölüyoruz.  |  |16|  |21|11|  |  |8 |12|  |22|  |
+                                                 |  |  |  |  |  |  |  |  |  |  |  |  |
+                                                  |16|  |21|  |11|  |  |8 |  |12|  |22|                
+                                                  |11|16|21|  |  |  |  |8 |12|22|  |  |
+ Sıralı yeni dizi                                 |  |  |8 |11|12|16|21|22|  |  |  |  |
+
+Big-O: Big-o(nlogn) (Örnek için: big-O(6log6))
